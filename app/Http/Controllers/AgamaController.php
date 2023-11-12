@@ -9,7 +9,8 @@ class AgamaController extends Controller
 {
     public function index()
     {
-        return view('agama.index');
+        $agama = Agama::all();
+        return view('agama.index', compact('agama'));
     }
 
     public function add()
