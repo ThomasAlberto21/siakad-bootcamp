@@ -25,4 +25,10 @@ class AgamaController extends Controller
         ]);
         return redirect('/agama');
     }
+
+    public function hapus($id)
+    {
+        Agama::destroy($id);
+        return redirect('/agama')->with('success', 'Data berhasil dihapus');
+    }
 }

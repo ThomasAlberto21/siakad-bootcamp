@@ -16,9 +16,10 @@ use App\Http\Controllers\AgamaController;
 */
 
 Route::get("/", [BerandaController::class, "index"]);
+
+// Agama
 Route::get("/agama", [AgamaController::class, "index"]);
 Route::get("/agama/add", [AgamaController::class, "add"]);
 Route::post("/agama/create", [AgamaController::class, "simpan"]);
-
-
+Route::get("/agama/delete/{id}", [AgamaController::class, "hapus"]);
 
