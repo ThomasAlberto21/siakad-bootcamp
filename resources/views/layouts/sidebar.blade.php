@@ -68,7 +68,7 @@
             <!-- Perguruan tinggi -->
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-database"></i>
+                    <i class="nav-icon fas fa-school"></i>
                     <p>
                         Perguruan Tinggi
                         <i class="right fas fa-angle-left"></i>
@@ -78,19 +78,19 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link active">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Agama</p>
+                            <p>Fakultas</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Ruang</p>
+                            <p>Program Studi</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>Tata Nilai</p>
+                            <p>Mata Kuliah</p>
                         </a>
                     </li>
                 </ul>
