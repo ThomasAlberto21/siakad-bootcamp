@@ -22,4 +22,5 @@ Route::get("/agama", [AgamaController::class, "index"]);
 Route::get("/agama/add", [AgamaController::class, "add"]);
 Route::post("/agama/create", [AgamaController::class, "simpan"]);
 Route::get("/agama/delete/{id}", [AgamaController::class, "hapus"]);
-
+Route::get("/agama/edit/{id}", [AgamaController::class, "edit"]);
+Route::put("/agama/update/{id}", [AgamaController::class, "update"]);

@@ -31,4 +31,19 @@ class AgamaController extends Controller
         Agama::destroy($id);
         return redirect('/agama')->with('success', 'Data berhasil dihapus');
     }
+
+    public function edit($id)
+    {
+        $agama = Agama::find($id);
+        return view('agama.edit', compact('agama'));
+    }
+
+    public function update(Request $req, $id)
+    {
+        $agama = Agama::find($id);
+        $agama->update([
+            'nama_agama' => $req->nama_agama
+        ]);
+        return redirect('/agama')->with('success', 'Data berhasil diupdate');
+    }
 }
