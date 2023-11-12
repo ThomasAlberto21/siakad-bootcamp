@@ -18,7 +18,7 @@
                 
                 <thead>
                     <tr>
-                        <th>No</th>
+                        <th class="text-center">No</th>
                         <th>Nama Agama</th>
                         <th>Aksi</th>
                     </tr>
